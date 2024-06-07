@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        app:showAsAction="always"
+        android:title=" "
+        android:icon="@drawable/baseline_menu_24">
+
+        <menu>
+
+            <item
+
+                android:id="@+id/Homee"
+                android:title="Home"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_home_24"/>
+
+            <item
+                android:id="@+id/shopj"
+                android:title="Shop"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_shopping_cart_24"/>
+
+            <item
+                android:id="@+id/setting"
+                android:title="Settings"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_settings_24"/>
+
+            <item
+                android:id="@+id/inform"
+                android:title="About Us"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_info_24"/>
+
+            <item
+                android:id="@+id/logoutt"
+                android:title="Logout"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_exit_to_app_24"/>
+
+        </menu>
+    </item>
+
+</menu>

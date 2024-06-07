@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AhlammProjecttt"
+        tools:targetApi="31">
+        <activity
+            android:name=".Thanks_Activty"
+            android:exported="false" />
+        <activity
+            android:name=".Settingg_Activty"
+            android:exported="false" />
+        <activity
+            android:name=".Navgmnue_Activty"
+            android:exported="false" />
+        <activity
+            android:name=".Datil_Mancur"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_Mancu"
+            android:exported="false" />
+        <activity
+            android:name=".Datial_Drass"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_Hairdr"
+            android:exported="false" />
+        <activity
+            android:name=".Datial_Wash"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_Wash"
+            android:exported="false" />
+        <activity
+            android:name=".Booking_HairCut"
+            android:exported="false" />
+        <activity
+            android:name=".Confirm_Activtey"
+            android:exported="false" />
+        <activity
+            android:name=".Hairdressing_Avtiv"
+            android:exported="false" />
+        <activity
+            android:name=".Washhair_Act"
+            android:exported="false" />
+        <activity
+            android:name=".mancare_Activty"
+            android:exported="false" />
+        <activity
+            android:name=".Servies_Activety"
+            android:exported="false" />
+        <activity
+            android:name=".DetalsAct"
+            android:exported="false" />
+        <activity
+            android:name=".Servies_Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Navgationahlm"
+            android:exported="false" />
+        <activity
+            android:name=".Adminloginn"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassw"
+            android:exported="false" />
+        <activity
+            android:name=".SignupUser"
+            android:exported="false" />
+        <activity
+            android:name=".LoginUser"
+            android:exported="false" />
+        <activity
+            android:name=".Nextpageahlam"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

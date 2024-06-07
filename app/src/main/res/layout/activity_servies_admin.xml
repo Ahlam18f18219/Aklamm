@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/conf"
+    tools:context=".Servies_Admin">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/login_packground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <TextView
+                android:id="@+id/loginn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Services"
+                android:textAlignment="center"
+                android:textColor="#3C096C"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/uploudimage"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/baseline_image_24" />
+
+
+            <EditText
+                android:id="@+id/Uploudname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/login_packground"
+                android:drawablePadding="8dp"
+                android:hint="Name..."
+                android:inputType="text"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/uploddescription"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/login_packground"
+                android:drawablePadding="8dp"
+                android:hint="Description.."
+                android:inputType="text"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/uploudPrice"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/login_packground"
+                android:drawablePadding="8dp"
+                android:hint="Price.."
+                android:inputType="text"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/Addserv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#3C096C"
+                android:text="Add"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "295843445619",
+    "project_id": "children-barber-shop",
+    "storage_bucket": "children-barber-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295843445619:android:e9a5a1467a995b321f2306",
+        "android_client_info": {
+          "package_name": "com.example.ahlammprojecttt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_iFjPOmaLkAqjaxlK0qEb1ZTVbJrs4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
